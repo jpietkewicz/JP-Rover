@@ -14,7 +14,7 @@ class WiFi {
     private void change() {
         String[] pieces = result.split(",");
         for (int i = 0; i < pieces.length; i++) {
-            temp[i] = Integer.parseInt(pieces[i]);
+            //temp[i] = Integer.parseInt(pieces[i]);
         }
     }
 
